@@ -1,0 +1,150 @@
+    @use 'sass:math';
+    .nav {
+        width: 100px;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .wat {
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .burger {
+        margin: auto;
+        max-width: 1200px;
+        padding-top: 217px;
+    }
+    
+    .photo {
+        max-height: 305px;
+        max-width: 50%;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: math.div(28, 24);
+        width: 80%;
+        padding-left: 50px;
+        transform: translateY(-277px);
+    }
+    
+    .weight {
+        height: 19px;
+        width: 101px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: math.div(19, 16);
+        color: #D8D8D8;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        transform: translateY(-265px);
+        padding-top: 12px;
+    }
+    
+    .text {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: math.div(16, 14);
+        display: flex;
+        justify-content: center;
+        padding-left: 310px;
+        width: 100%;
+        transform: translateY(-260px);
+        padding-top: 31px;
+        width: 65%;
+    }
+    
+    .tt {
+        background-image: url(./photo/Rectangle.png) no-repeat center;
+        width: 100px;
+    }
+    
+    .form {
+        height: 40px;
+        display: flex;
+        transform: translateY(-245px);
+        padding-left: 40%;
+        background: url(./photo/Rectangle.png) no-repeat 300px;
+    }
+    
+    .inputBox {
+        height: 100%;
+        display: flex;
+    }
+    
+    .button {
+        border: 2px solid #10B4A4;
+        padding: 1px 25px 0;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: math.div(19, 16);
+        color: #363636;
+        background: transparent;
+        cursor: #10B4A4;
+    }
+    
+    .decrease {
+        margin-left: -17px;
+    }
+    
+    .decrease,
+    .increase {
+        border: none;
+        padding: 0;
+        width: 44px;
+        color: #10B4A4;
+    }
+    
+    .input {
+        padding: 0;
+        border: 1px solid #D8D8D8;
+        width: 34px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .order {
+        margin-left: 50px;
+        color: #FFFFFF;
+        background-color: #10B4A4;
+        cursor: pointer;
+    }
+    
+    .price {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        color: #474747;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-210px);
+    }
+    
+    .compaunds {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        width: 100px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-470px);
+        margin-left: 850px;
+    }

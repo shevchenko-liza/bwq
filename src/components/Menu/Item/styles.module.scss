@@ -1,0 +1,27 @@
+.item {
+    display: grid;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.iconBox {
+    min-width: 135px;
+    width: 135px;
+    max-width: 135px;
+    min-height: 120px;
+    height: 120px;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: (19 / 16);
+    color: #363636;
+}

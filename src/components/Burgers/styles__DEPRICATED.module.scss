@@ -1,0 +1,62 @@
+    .burger {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5vw;
+    }
+    
+    .weight {
+        display: grid;
+        padding-left: 345px;
+        margin-top: -135px;
+        height: 16px;
+        width: 112px;
+        font-size: 14px;
+    }
+    
+    .photo {
+        max-height: 250px;
+        width: 290px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .compound {
+        max-width: 240px;
+        display: grid;
+        padding-left: 350px;
+        transform: translateY(-165px);
+        font-size: 13px;
+        max-height: 54px;
+    }
+    
+    .name {
+        display: grid;
+        padding-left: 390px;
+        max-height: 41px;
+        max-width: 242px;
+        font-size: 16px;
+        transform: translateY(50px);
+        text-decoration: none;
+    }
+    
+    .button {
+        border: 3px solid #10B4A4;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: white;
+        padding: 9px 24px;
+        display: grid;
+        margin-left: 59%;
+        margin-top: 15px;
+    }
+    
+    .form {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        transform: translateY(-35px);
+        font-size: 16px;
+        color: #10B4A4;
+        margin-right: 5px;
+    }

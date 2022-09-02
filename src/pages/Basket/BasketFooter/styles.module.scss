@@ -1,0 +1,66 @@
+.list {
+    display: grid;
+    gap: 15px;
+    padding-left: 50px;
+    transform: translateY(-70px);
+}
+
+.price {
+    height: 18px;
+    width: 130px;
+    color: #7E7E7E;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.deliveryPrice {
+    height: 18px;
+    width: 69px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7E7E7E;
+}
+
+.bonuses {
+    height: 18px;
+    width: 55px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #10B4A4
+}
+
+.totalPayable {
+    height: 22px;
+    width: 134px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #474747
+}
+
+.buttonSubmit {
+    height: 48px;
+    width: 450px;
+    border-radius: 0px;
+    margin-left: 50px;
+    background: #10B4A4;
+    box-shadow: 0px 3px 0px #0A6A60;
+    border-color: #10B4A4;
+    transform: translateY(-30px);
+    cursor: pointer;
+}
+
+.order {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+}

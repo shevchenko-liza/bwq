@@ -1,0 +1,112 @@
+@use 'sass:math';
+.burgers {
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+}
+
+.item {
+    display: flex;
+}
+
+.photoBox {
+    width: 50%;
+}
+
+.photo {
+    display: block;
+}
+
+.infoBox {
+    padding: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    margin: 0;
+    width: 100%;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: math.div(19, 16);
+    color: #363636;
+    text-align: center;
+    text-decoration: none;
+}
+
+.compound {
+    margin: 10px 0 0;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: math.div(13rem, 16);
+    line-height: math.div(15, 13);
+    color: #363636;
+    text-align: center;
+}
+
+.weight {
+    margin: 18px 0 0;
+    font-weight: 500;
+    font-size: math.div(14rem, 16);
+    line-height: math.div(16, 14);
+    color: #474747;
+}
+
+.form {
+    margin: 21px 0 0;
+    height: 40px;
+    display: flex;
+}
+
+.inputBox {
+    height: 100%;
+    display: flex;
+}
+
+.button {
+    border: 2px solid #10B4A4;
+    padding: 1px 25px 0;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: math.div(19, 16);
+    color: #363636;
+    background: transparent;
+    cursor: pointer;
+}
+
+.decrease {
+    margin-left: -17px;
+}
+
+.decrease,
+.increase {
+    border: none;
+    padding: 0;
+    width: 44px;
+    color: #10B4A4;
+}
+
+.input {
+    padding: 0;
+    border: 1px solid #D8D8D8;
+    width: 34px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.order {
+    margin-left: auto;
+    color: #363636;
+}
